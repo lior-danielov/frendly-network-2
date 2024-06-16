@@ -117,19 +117,21 @@ export default function Navbar() {
         </div>
       </div>
       <div className="middle-nav row">
-{/* <<<<<<< HEAD */}
+        {/* <<<<<<< HEAD */}
         <Link href="/home">
-        <HomeRoundedIcon sx={{ fontSize: 40 }} />
+          <HomeRoundedIcon sx={{ fontSize: 40 }} />
         </Link>
-        
-        <GroupOutlinedIcon sx={{ fontSize: 40 }} />
+
+        <Link href="/group">
+          <GroupOutlinedIcon sx={{ fontSize: 40 }} />
+        </Link>
 
         <Link href="/stor">
-        <StoreRoundedIcon sx={{ fontSize: 40 }} />
+          <StoreRoundedIcon sx={{ fontSize: 40 }} />
         </Link>
-        
-{/* ======= */}
-        <Tabs
+
+        {/* ======= */}
+        {/* <Tabs
           value={value}
           onChange={handleChange}
           textColor="primary"
@@ -145,15 +147,14 @@ export default function Navbar() {
             }
           />
           <Link href="/profile">
-          <Tab
-            icon={
-              <GroupOutlinedIcon
-                style={{ color: "black" }}
-                sx={{ fontSize: 40 }}
-              
-              />
-            }
-          />
+            <Tab
+              icon={
+                <GroupOutlinedIcon
+                  style={{ color: "black" }}
+                  sx={{ fontSize: 40 }}
+                />
+              }
+            />
           </Link>
           <Tab
             icon={
@@ -179,13 +180,13 @@ export default function Navbar() {
               />
             }
           />
-        </Tabs>
-{/* >>>>>>> d484a8f2207ca0a0af60d0d1194e6f2bee0e37d1 */}
+        </Tabs> */}
+        {/* >>>>>>> d484a8f2207ca0a0af60d0d1194e6f2bee0e37d1 */}
       </div>
       <div className="nav-right row">
-        <WidgetsRoundedIcon sx={{ fontSize: 40 }} />
+        {/* <WidgetsRoundedIcon sx={{ fontSize: 40 }} />
         <MessageTwoToneIcon sx={{ fontSize: 40 }} />
-        <CircleNotificationsRoundedIcon sx={{ fontSize: 40 }} />
+        <CircleNotificationsRoundedIcon sx={{ fontSize: 40 }} /> */}
         <button className="profile-button">
           <img
             src="/125371365_692859425274779_4351217660566881911_n.jpg"

@@ -1,15 +1,14 @@
-/* page.css */
 .conteiner {
   display: flex;
   flex-direction: row;
 }
 
-.addPost {
-  flex: 2;
+.marketside {
+  flex: 3;
   padding: 10px;
 }
 
-.sideBar {
+.marketgrid {
   flex: 1;
 }
 

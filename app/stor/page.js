@@ -1,11 +1,15 @@
 import Marketplace from "@/utils/components/marketplace/marketplace";
-import Navbar from "@/utils/components/navbar/navbar";
+import Marketgrid from "@/utils/components/narketgrid/marketgrid";
 
 export default function HomePage() {
   return (
-    <div>
-        <Navbar />
+    <div className={"conteiner"}>
+      <div className={"marketside"}>
         <Marketplace />
+      </div>
+      <div className={"marketside"}>
+        <Marketgrid />
+      </div>
     </div>
   );
 }
