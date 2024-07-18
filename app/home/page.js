@@ -6,6 +6,7 @@ import CreatePost from "@/utils/components/createPost/createPost";
 import Navbar from "@/utils/components/navbar/navbar";
 import Sidebar from "@/utils/components/side_bar/sidebar";
 import PostList from "@/utils/components/Post/PostList";
+import Login from "@/utils/components/login/login";
 import "./page.css";
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
       <div className={"addPost"}>
         <AddPost />
         <ChatBox />
+        <Login />
       </div>
       <div className={"sideBar"}>
         <PostList />

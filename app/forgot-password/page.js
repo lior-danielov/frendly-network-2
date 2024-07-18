@@ -1,9 +1,9 @@
-import Register from "@/utils/components/register/register";
+import ForgotPassward from "@/utils/components/forgotPassward/forgotPassward";
 
-export default function forgetPosword_page() {
+export default function PasswardPage() {
   return (
     <div>
-      <Register />
+      <ForgotPassward />
     </div>
   );
 }
